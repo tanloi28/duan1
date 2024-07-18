@@ -1,0 +1,372 @@
+.datve {
+    width: 1400px;
+    margin: auto;
+    height: 600px;
+}
+
+.box-text {
+    padding: 30px;
+    padding-left: 260px;
+}
+
+.box-text nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.box-text nav ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box-text nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+    position: relative;
+}
+
+.box-text nav ul li a span {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.box-text nav ul li a::after {
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    transform-origin: center;
+    transform: scaleX(0%);
+    transition: all 0.3s ease-in-out;
+}
+.box-text nav ul li a:hover::after {
+    transform: scaleX(100%);
+}
+.main {
+    display: flex;
+    /* gap: 70px; */
+    padding-top: 50px;
+    position: relative;
+}
+.main-left{
+    width: 949px;
+}
+
+.listghe nav ul {
+    list-style: none;
+}
+
+.listghe nav ul li {
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.hang-ghe {
+    display: flex;
+    align-items: center;
+}
+
+.hang-input {
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 600px;
+    display: flex;
+}
+.check_ghe{
+    border: 1px solid #d7d7d7;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+.manhinh {
+    text-align: center;
+    height: 50px;
+    padding-bottom: 20px;
+    color: rgb(204, 204, 204);
+    position: relative;
+}
+
+.manhinh::before {
+    position: absolute;
+    left: 0px;
+    bottom: 25px;
+    content: "";
+    height: 5px;
+    margin-left: 40px;
+    background-color: #ff953f;
+    width: 740px;
+}
+.nut-checkbox {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.check-left {
+    display: flex;
+}
+
+.check-right {
+    display: flex;
+}
+
+.nut-ck {
+    margin: 0 15px;
+    width: 145px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.nut-ck input {
+    width: 20px;
+    height: 20px;
+}
+
+.main-right {
+    width: 440px;
+    position: relative;
+}
+.phantren{
+    position: relative;
+}
+.phantren::before {
+    position: absolute;
+    left: 0px;
+    bottom: 387px;
+    content: "";
+    height: 7px;
+    background-color: #ff953f;
+    width: 460px;
+}
+.img-ctbill {
+    display: flex;
+    gap: 20px;
+}
+
+.img-ctbill p {
+    color: rgb(82, 81, 81);
+}
+
+.img-ctbill span {
+    background-color: #ff953f;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.tgchieu {
+    margin-top: 20px;
+    line-height: 35px;font-size: 20px;
+}
+
+.tgchieu .ke {
+    color: rgb(173, 173, 173);
+}
+
+.tongtien {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 10px;
+     color: #4c4145;
+}
+
+.tongtien .mau {
+    color: #ff953f;
+}
+
+.nut-btn {
+    padding-top: 40px;
+    display: flex;
+}
+
+.nut-btn button {
+    padding: 15px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff953f;
+    color: white;
+}
+.nut-btn button a{
+    text-decoration: none;
+    color: white;
+}
+.nut-btn input {
+    background-color: #ff953f;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.nut-btn input:hover{
+    background-color: #e08438;
+}
+.nut-btn button:hover {
+    background-color: #e08438;
+
+}
+.sits{
+    position: relative;
+}
+
+.sits__right{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* Reset default button styles */
+input[type="submit"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* Style for the submit button */
+.booking-pagination__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:red;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.quaylai{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(119, 113, 113);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.booking-pagination__button:hover {
+    color:#ffd564;
+}
+.quaylai:hover{
+    color:#ffd564;
+}
+
+.check_do_an{
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.prodoan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prodo {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.prodo img {
+    width: 100%;
+    height: auto;
+}
+
+.prodo h3 {
+    margin-top: 10px;
+}
+
+.sliders {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sliders img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+.reservation-form12 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.reservation-form12 h2 {
+    margin-bottom: 20px;
+}
+
+.reservation-form12 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.reservation-form12 label {
+    margin-top: 10px;
+}
+.reservation-form12 input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.reservation-form12 input[type="submit"]:hover {
+    background-color: #45a049;
+}
+h1{
+    font-weight:bold;
+    color: #ffa200;
+    font-size: 40px;
+}
+h3{
+    color:#4c4145;
+}
+p{
+    font-size: 1.2vw;
+}
+.booking-pagination__next{
+    font-size: 1.2vw;
+}
+.tien{
+    color: #4c4145;
+}
